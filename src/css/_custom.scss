@@ -1,0 +1,18 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+.control-menu-level-1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c92828+0,e4e825+17,27e524+35,23d6e0+53,2923dd+68,dd23d1+83,db2326+100 */
+    background: #c92828; /* Old browsers */
+    background: -moz-linear-gradient(left, #c92828 0%, #e4e825 17%, #27e524 35%, #23d6e0 53%, #2923dd 68%, #dd23d1 83%, #db2326 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #c92828 0%,#e4e825 17%,#27e524 35%,#23d6e0 53%,#2923dd 68%,#dd23d1 83%,#db2326 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #c92828 0%,#e4e825 17%,#27e524 35%,#23d6e0 53%,#2923dd 68%,#dd23d1 83%,#db2326 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c92828', endColorstr='#db2326',GradientType=1 ) !important; /* IE6-9 */
+}
+
+@import "color_schemes/day";
